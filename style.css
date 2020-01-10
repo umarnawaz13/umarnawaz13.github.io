@@ -1,0 +1,42 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.banner1{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+img
+{
+	width: 120%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50% , -50%);
+	animation: zoom-out 7s linear;
+}
+@keyframes zoom-out{
+	100%{
+		width: 100%;
+	}
+}
+.text-box
+{
+	width: 600px;
+	position: absolute;
+	top: 300px;
+	below: 200px;
+	left: 100px;
+	color: #fff;
+	animation: textup 12s linear infinite;
+	transform: translateY(100px);
+}
+.banner1{
+	animation: slide1 12s linear infinite;
+}
